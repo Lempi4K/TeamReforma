@@ -1,0 +1,19 @@
+:root{
+    --primary-color: #71bb71;
+    --bg: #e2e2da;
+    --nav-bg: #c1210f;
+    --section-bg: #3a847a;
+    --logo-color-1: #0E6948;
+    --logo-color-2: #2e3191;
+    --text-color-1: white;
+    --text-color-2: black;
+    
+    --title-font: "Expressway W00";
+    --normal-font: "Expressway";
+    --subtitle-font: "SAASeriesW01-EMD";
+    --before-subtitle-font: "SAASeriesADOT";
+
+    --patreon-color: #f86754;
+    --paypal-color: #002b88;
+
+}

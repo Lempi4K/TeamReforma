@@ -1,0 +1,15 @@
+.banner{
+    position: relative;
+    z-index: 102;
+    height: 600px;
+}
+
+.banner-logo{
+    z-index: 104;
+    max-height: 70%;
+    max-width: 100%;
+    padding: 20px;
+}
+.banner-background{
+    z-index: 103;
+}

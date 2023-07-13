@@ -1,0 +1,82 @@
+.body-foot{
+    padding: 40px 2.5%;
+}
+
+.foot-bg{
+    filter: brightness(0.4);
+    z-index: -1;
+}
+
+.fBigContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fContainer-2{
+    height: auto;
+    margin: 20px 0px;
+}
+
+.fContainer-1, .fContainer-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+.fContainer-1 > div, .fContainer-1 > section, .fContainer-2 > p{
+    min-width: 200px;
+}
+
+.fContainer-1 > section{
+    height: 270px;
+    flex: 1;
+}
+
+.fc1-images{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+
+}
+
+.fc1-images >  img, .fc1-images a {
+    width: 50%;
+    min-width: 150px;
+    object-fit: contain;
+    height: 270px;
+}
+
+.fc1-images a img{
+    width: 100%;
+    min-width: 150px;
+    object-fit: contain;
+    height: 270px;
+}
+
+.fContainer-1 .social-container div{
+    min-width: 70px;
+}
+
+.fContainer-2 > p, .body-foot h4{
+    text-align: center;
+    font-family: var(--title-font);
+}
+
+.fContainer-2 > p{
+    flex: 1;
+    font-size: 25px;
+}
+
+.body-foot h4 {
+    font-size: 30px;
+}
+
+@media screen and (max-width: 652px){
+    .fc1-images img, .fc1-images a img, .fc1-images a{
+        height: 100px;
+    }
+}

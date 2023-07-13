@@ -1,0 +1,49 @@
+@import url("color.css");
+@import url("banner.css");
+@import url("nav.css");
+@import url("main.css");
+@import url("footer.css");
+
+@font-face {
+    font-family: "Expressway W00";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+        local("Expressway W00"),
+        url("../fonts/Expressway-W00-Condensed-Bold.woff2"),
+        url("../fonts/Expressway-W00-Condensed-Bold.woff"),
+        url("../fonts/Expressway-W00-Condensed-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Expressway";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+        local("Expressway"),
+        url("../fonts/Expressway-Bk.woff2"),
+        url("../fonts/Expressway-Bk.woff"),
+        url("../fonts/Expressway-Bk.ttf");
+}
+
+@font-face {
+    font-family: "SAASeriesW01-EMD";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+        local("SAASeriesW01-EMD"),
+        url("../fonts/SAA-Series-W01-EM-D.woff2"),
+        url("../fonts/SAA-Series-W01-EM-D.woff"),
+        url("../fonts/SAA-Series-W01-EM-D.ttf");
+}
+
+@font-face {
+    font-family: "SAASeriesADOT";
+    font-style: normal;
+    font-weight: normal;
+    src: 
+        local("SAASeriesADOT"),
+        url("../fonts/SaaSeriesADOT.woff2"),
+        url("../fonts/SaaSeriesADOT.woff"),
+        url("../fonts/SaaSeriesADOT.ttf");
+}
