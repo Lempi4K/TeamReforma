@@ -15,6 +15,7 @@ body, html{
     /*height: 200vw;*/
     line-height: 1;
     overflow-x: hidden;
+    scroll-padding-top: 80px;
 }
 
 ol, ul {
